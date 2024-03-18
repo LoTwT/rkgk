@@ -1,6 +1,6 @@
 {
   "name": "rkgk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "rkgk",
   "type": "module",
   "packageManager": "pnpm@8.15.5",

@@ -1,6 +1,6 @@
 {
   "name": "monorepo-rkgk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "monorepo for rkgk",
   "type": "module",
   "private": true,
