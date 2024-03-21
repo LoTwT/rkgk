@@ -1,3 +1,5 @@
+/// <reference types="histoire" />
+
 import { URL, fileURLToPath } from "node:url"
 import path from "node:path"
 import { type Plugin, defineConfig } from "vite"
@@ -6,6 +8,7 @@ import Dts from "vite-plugin-dts"
 import AutoImport from "unplugin-auto-import/vite"
 import Unocss from "unocss/vite"
 import MagicString from "magic-string"
+import { HstVue } from "@histoire/plugin-vue"
 
 export default defineConfig({
   plugins: [
@@ -46,6 +49,14 @@ export default defineConfig({
         format: "es",
       },
     },
+  },
+
+  histoire: {
+    setupCode: [`import "uno.css"`],
+    theme: {
+      title: "rkgk",
+    },
+    plugins: [HstVue()],
   },
 })
 

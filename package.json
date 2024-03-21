@@ -8,7 +8,7 @@
   "author": "LoTwT <l709937065@gmail.com>",
   "scripts": {
     "build": "pnpm -C packages/* run build",
-    "dev": "pnpm -C packages/rkgk run build:watch",
+    "dev": "pnpm -C packages/rkgk run histoire:dev",
     "lint": "eslint .",
     "play": "pnpm -C playground run dev",
     "prepare": "simple-git-hooks",

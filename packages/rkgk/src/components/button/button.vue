@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <button text-red>btn-text</button>
+  <button>btn-text</button>
 </template>

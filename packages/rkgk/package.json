@@ -39,7 +39,10 @@
   ],
   "scripts": {
     "build": "vite build",
-    "build:watch": "vite build -w"
+    "build:watch": "vite build -w",
+    "histoire:build": "histoire build",
+    "histoire:dev": "histoire dev",
+    "histoire:preview": "histoire preview"
   },
   "dependencies": {
     "@unocss/reset": "^0.58.6",
@@ -47,7 +50,9 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@histoire/plugin-vue": "^0.17.14",
     "@vitejs/plugin-vue": "^5.0.4",
+    "histoire": "^0.17.14",
     "unocss": "^0.58.6",
     "unplugin-auto-import": "^0.17.5",
     "vite": "^5.2.2",
