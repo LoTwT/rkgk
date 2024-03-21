@@ -7,10 +7,10 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "paths": {
-      // "@/*": ["./src/*"]
+      "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
-    "types": ["vitest/globals"],
+    "types": [],
     "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
@@ -18,5 +18,7 @@
     "isolatedModules": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
-  }
+  },
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "include": ["src/**/*.ts", "src/**/*.vue"]
 }

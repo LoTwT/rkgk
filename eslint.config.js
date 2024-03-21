@@ -4,7 +4,7 @@ import { defineFlatConfig } from "@ayingott/eslint-config"
 
 export default defineFlatConfig([], {
   prettier: true,
-  vue: false,
+  vue: true,
   unocss: false,
   react: false,
 })

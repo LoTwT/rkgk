@@ -1,1 +1,4 @@
-export const one = 1
+// import "uno.css"
+// import "@unocss/reset/tailwind-compat.css"
+
+export * from "./components"

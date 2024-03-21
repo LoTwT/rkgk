@@ -38,9 +38,19 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "vite build",
+    "build:watch": "vite build -w"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.58.6",
+    "magic-string": "^0.30.8",
+    "vue": "^3.4.21"
   },
   "devDependencies": {
-    "tsup": "^8.0.2"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "unocss": "^0.58.6",
+    "unplugin-auto-import": "^0.17.5",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3"
   }
 }
